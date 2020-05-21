@@ -22,7 +22,7 @@
 
                     <ul class='list-unstyled letra2'>
                         <li>
-                        <a href='http://www.fatecsp.br/' class='text-white'>API PIXABAY</a>
+                        <a href='https://pixabay.com/api/docs/' class='text-white'>API PIXABAY</a>
                         </li>
                         <li>
                         <a href='https://www.cps.sp.gov.br/' class='text-white'>CENTRO PAULO SOUZA</a>
@@ -63,7 +63,7 @@
             <!-- Footer Links -->
 
             <!-- Copyright -->
-            <div class='footer-copyright text-center py-3 letrafoot'>© 2019 Copyright:
+            <div class='footer-copyright text-center py-3 letrafoot'>© 2020 Copyright:
             <a href='https://mdbootstrap.com/education/bootstrap/' class='text-white'> MDBootstrap.com</a>
             </div>
             <!-- Copyright -->

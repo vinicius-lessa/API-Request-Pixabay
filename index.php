@@ -110,10 +110,10 @@
                                                 $obj = (object) $Value;
                                                 echo "  <div class='col-4 pl-4 pr-4'>
                                                             <div class='row border-bottom h-100 mt-3 mb-3'>
-                                                                <div class='col-12 mt-4 ml-1 mr-1 mb-2'>
-                                                                        <img src=".$obj->webformatURL." alt='Girl in a jacket' class='img-fluid rounded'/>
+                                                                <div class='col-12 mt-4 ml-1 mr-1 h-75'>
+                                                                    <img src=".$obj->webformatURL." alt='Girl in a jacket' class='img-fluid rounded'/>
                                                                 </div>
-                                                                <div class='col-12'>
+                                                                <div class='col-12 h-25'>
                                                                     <span class='d-block'>Tipo: " . $obj->type ."</span>
                                                                     <span class='d-block'>id: " . $obj->id ."</span>
                                                                     <span class='d-block'>Link: <a href='".$obj->pageURL."'>Visitar Link Original</a></span>

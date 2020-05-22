@@ -1,6 +1,18 @@
+<!-- 
+    Archive: videoseek.php
+    Type: PHP
+    Description: This page is a Diplayable page that the user can seek any VIDEO from the API
+    Author: Vinícius Lessa / Anderson Nascimento
+    Since: 2020/05/21
+-->
 
+<?php
+    // videoseek.php
+    include "busca_video.php";
+
+?>
                       
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -58,9 +70,8 @@
                 <form method="post" action="." class="ml-5 mr-5 mb-0">
                     <div class="form-group">
                         <label class="letra">O que deseja Ver ?</label>
-                        <input type="text" name="nome" class="form-control" id="" placeholder="Imagens de New York" required>
-                        <?php include  'busca_img.php'?>
-
+                        <input type="text" name="search" class="form-control" id="" placeholder="Imagens de New York" required>
+                        
                         <small id="" class="form-text text-muted letra2">Encontre o que quiser</small>
                     </div>
                     <div class="row">                        

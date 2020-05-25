@@ -1,0 +1,194 @@
+/*  
+  @DESCRIPTION: FATEC São Roque - 2019 - PROJETO DOCUMENTO DE VISÃO III: página de estilo em castata para edição dos elementos visuais do Portal em geral.
+  @AUTHOR: VINÍCIUS LESSA / GABRIEL SHIRAI.
+  @VERSION: 1.2
+  @DATE: FATEC São Roque - 2019 - PROJETO DOCUMENTO DE VISÃO III: página de estilo em castata para edição dos elementos visuais do Portal em geral.
+  @OBS: NIL.
+______________________________________________________________________________________________________________________________
+
+/* =========================================== CSS GERAL =========================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+/*=================== BODY ===================*/
+
+
+body{background-image: linear-gradient(#54F9C0, #008B45);}
+
+article, section, div{font-family: "Source Sans Pro", sans-serif;}
+
+
+
+#piechart {height: 100%;}
+
+/* section{background-color: rgb(91, 91, 92);} */
+
+/* .article{
+    background-color: #00000059;
+} */
+.corfundo   {
+    background-color: rgb(255, 255, 255);
+}
+
+/*PARTE DO GRÁFICO 2*/
+.bk-escuro {
+    background-color: #20232c;
+}
+
+/* .bk-claro   {
+    background-color: #20232c81;
+} */
+
+.ft-branca{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.card {
+    background-clip: border-box;    
+    border: 4px solid #0332b37a;    
+}
+
+.letra {
+    font-size: 25px;
+}
+
+.letra2 {
+    font-size: 20px;
+}
+
+
+/*=================== HEADER ===================*/
+
+nav{background-color: rgb(53, 53, 53);}
+
+nav{border-bottom: 3px solid rgb(139, 146, 167);}
+
+.navbar-brand{font-size: 1.8em;}
+
+#lista-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    width: 17%;
+}
+
+.border-button:hover {
+    background-color: rgb(255, 255, 255);
+    color:#000000;
+    margin-right: 5px;
+}
+
+.border-button {
+    transition: background-color 0.2s linear;
+    border-radius: 70px;
+    margin: 4px 2px;
+}
+/*=================== FOOTER ===================*/
+
+footer {background: rgb(53, 53, 53);}
+
+.letrafoot  {
+    color: rgb(139, 146, 167);
+    font-size: 18px;
+}
+
+/*=================== PÁGINA QUEM SOMOS===================*/
+
+.cardsomos {
+    background-clip: border-box;
+    border: 5px solid #000000b9;
+    margin-left: 12px;
+}
+
+.corf   {
+    background: rgb(255, 255, 255);
+}
+
+.letrasomos {
+    font-size: 25px;
+}
+
+/*=================== INPUTS ===================*/
+
+.input-des {
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+  }
+
+.input-bot {
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+  }
+
+/*=================== JAVA SCRIPT ===================*/
+
+lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    border-color: #000000 transparent black transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .graph02{
+    height: 517px;
+    border: 5px solid gray;;
+}
+
+/*===== BOTÕES =====*/
+
+/*===== HR'S =====*/
+
+/*===== OUTROS =====*/
+
+
+/*================================ MEDIA QUERIES ================================*/
+
+/* Small devices (landscape phones, 576px and up) */
+
+/*   EXEMPLO:
+
+@media (max-width: 450px) and (min-width: 50px) {
+    header #linkheader {
+        width: 100%;
+        background: rgba(0,0,0,0);
+    }
+    .imagem1 {
+        opacity: 0.9;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 20px 20px 20px;
+        width: 375%;
+    }
+    .bestxxi .aside {height: auto;}
+    .bestxxi .hr {display: none;}
+    .quemsomos .devimg {margin: 0 10%;}
+}
+*/ 

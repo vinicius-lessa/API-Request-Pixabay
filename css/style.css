@@ -14,11 +14,11 @@ ________________________________________________________________________________
 /*=================== BODY ===================*/
 
 
-body{background-color: rgb(139, 146, 167);}
+body{background-image: linear-gradient(#54F9C0, #008B45);}
 
 article, section, div{font-family: "Source Sans Pro", sans-serif;}
 
-.main {background: rgb(194, 194, 194);}
+
 
 #piechart {height: 100%;}
 

@@ -8,7 +8,7 @@
 
 <?php
     // Página de Consumo da API
-    include "busca_img.php";
+    include "seekdata.php";
 
     // Retorno
     $jSonRet    = VarResult();
@@ -58,7 +58,7 @@
             <!-- NAV -->
             <?php include 'includes/header.php'?>
         </nav>
-        <div class="container">
+        <div class="container mt-2 mb-5">
             <div class="main">
                 <div class="row">
                     <div class="col-12 text-center mt-4">
@@ -68,18 +68,40 @@
                     </div>
                 </div>
 
-                <!-- FORM THAT MAKE A REQUIRE TO DATABASE -->                
-                <form method="post" action="." class="ml-5 mr-5 mb-0">
-                    <div class="form-group">
-                        <label class="letra">O que deseja Ver ?</label>
-                        <input type="text" name="search" class="form-control" id="" placeholder="Imagens de New York" required>
-                        
-                        <small id="" class="form-text text-muted letra2">Encontre o que quiser</small>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- FORM THAT MAKE A REQUIRE TO DATABASE -->
+                        <form method="post" action="." class="ml-5 mr-5 mb-0">
+                            <div class="form-group">
+                                <label class="letra">O que deseja Ver ?</label>
+                                <input type="text" name="search" class="form-control" id="" placeholder="Imagens de New York" required>
+                                
+                                <small id="" class="form-text text-muted letra2">Encontre o que quiser</small>
+                                
+                                <!-- Tipo de Dado -->
+                                <div class="row mt-2">
+                                    <div class="col-2">
+                                        <span class="d-block">Tipo de Busca:</span>
+                                    </div>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col-2">
+                                        <input type="radio" id="imagem" name="tipo" value="imagem">
+                                        <label for="imagem">Imagens</label>                                        
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="radio" id="video" name="tipo" value="video">
+                                        <label for="video">Vídeos</label>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="row">                        
+                                <input type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
+                            </div>
+                        </form>
                     </div>
-                    <div class="row">                        
-                        <input type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
-                    </div>
-                </form>
+                </div>
+
                 <hr class="ml-5 mr-5">
                 <article class='mb-3'>                
                     <div class="row">
@@ -109,11 +131,11 @@
                                             foreach($aResult as &$Value){
                                                 $obj = (object) $Value;
                                                 echo "  <div class='col-4 pl-4 pr-4'>
-                                                            <div class='row border-bottom h-100 mt-3 mb-3'>
-                                                                <div class='col-12 mt-4 ml-1 mr-1 h-75'>
+                                                            <div class='row border rounded h-100 mt-3 mb-3'>
+                                                                <div class='col-12 mt-4 ml-1 mr-1'>
                                                                     <img src=".$obj->webformatURL." alt='Girl in a jacket' class='img-fluid rounded'/>
                                                                 </div>
-                                                                <div class='col-12 h-25'>
+                                                                <div class='col-12'>
                                                                     <span class='d-block'>Tipo: " . $obj->type ."</span>
                                                                     <span class='d-block'>id: " . $obj->id ."</span>
                                                                     <span class='d-block'>Link: <a href='".$obj->pageURL."'>Visitar Link Original</a></span>
@@ -139,12 +161,24 @@
                                         </div>";
 
                                 echo " </div> ";
+                            } else {
+                                echo " <div class='container ml-5 mr-5'> ";
+
+                                // Resultados em Números
+                                echo "<div class='row mb-2'>
+                                        <div class='col-12'>
+                                            <span>
+                                                Sory, We're Out for now. Come back Soon!
+                                            </span>
+                                        </div>
+                                      </div>";
                             }
                         ?>         
                     </div>
                 </article>
             </div>
-    
+        </div>
+
         <!-- FOOTER -->
         <footer class="w-auto p-3">
 			<div class="row">

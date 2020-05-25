@@ -42,28 +42,42 @@
             <?php include 'includes/header.php'?>
         </nav>
         <div class="container">
-            <div class="main">
-                <div class="row">
-                  
-                    <div class="col-xs mb-3 mt-4 ml-5">
+            <div class="row">
+                <!-- Vinícius -->
+                <div class="col-12 mt-5 mb-5">
+                    <div class="border rounded p-4 m-5">
+                        <div class="row">
+                            <div class="col-3">
                                 <img tabindex="0" class="rounded-circle devimg" src="vinicius.webp" height="220" width="220" alt="Cabeça e ombros de um homem, vestindo capuz com barba no rosto, aparência entre 20, 25 anos, ao fundo uma moto e um carro">
                             </div>
-                             <div class="col-lg3 mb-5 m2-5 mr-3">
-                                
-                                <h2 class= "ml-5">Vinícius Lessa</h2>
-                                <p class="mt-4 mb-4 ml-5" tabindex="0">Vinícius Lessa, atualmente cursando o 3º Semestre de Sistemas para Internet na FATEC SÃO ROQUE.</p>
+                            <div class="col-9 mt-2">
+                                <h2>Vinícius Lessa</h2>
+                                <h5 class="font-weight-bold">Sobre:<h5>
+                                <p class="text-justify">Vinícius Lessa, atualmente cursando o 3º Semestre de Sistemas para Internet na FATEC SÃO ROQUE.</p>
+                                <h5 class="font-weight-bold">Contato:</h5>
+                                <p class="text-justify">E-mail: vinicius.lessa@outlook.com</p>
                             </div>
-                            <div class="row">
-                            <div class="mb-3 mt-4 ml-5">
-                                <img tabindex="0" class="rounded-circle devimg" src="anderson.webp" height="220" width="220" alt="Cabeça e ombros de um homem, vestindo capuz com barba no rosto, aparência entre 20, 25 anos, ao fundo uma moto e um carro">
-                                <h2 class="mt-4 mb-4 ml-5" tabindex="0">Anderson Nascimento</h2>
-                                <p class="mt-4 mb-4" tabindex="0"> Anderson estudante 28 anos,amante de (gibis,mangas,Animes,Tokusatsu)
+                        </div>
+                    </div>
 
+                    <!-- Anderson -->
+                    <div class="border rounded p-4 m-5">
+                        <div class="row">
+                            <div class="col-3">
+                                <img tabindex="0" class="rounded-circle devimg" src="anderson.webp" height="220" width="220" alt="...">
                             </div>
-                      
+                            <div class="col-9 mt-2">
+                                <h2>Anderson Coelho</h2>
+                                <h5 class="font-weight-bold">Sobre:<h5>
+                                <p class="text-justify">Anderson Nascimento, estudante 28 anos,amante de gibis,mangas,Animes,Tokusatsu.</p>
+                                <h5 class="font-weight-bold">Contato:</h5>
+                                <p class="text-justify">E-mail: andersoncoderweb@gmail.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+            </div>
+        </div>
                 
         <!-- FOOTER -->
         <footer class="w-auto p-3">

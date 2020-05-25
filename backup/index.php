@@ -33,7 +33,6 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
         
         <!-- CSS padrão -->
@@ -82,7 +81,7 @@
                                 <!-- Tipo de Dado -->
                                 <div class="row mt-2">
                                     <div class="col-2">
-                                  <span class="d-block l">Tipo de Busca:</span>
+                                        <span class="d-block">Tipo de Busca:</span>
                                     </div>
                                 </div>
                                 <div class="row mt-1">
@@ -92,17 +91,12 @@
                                     </div>
                                     <div class="col-2">
                                         <input type="radio" id="video" name="tipo" value="video">
-
                                         <label for="video">Vídeos</label>
-                                      
-                                        
                                     </div>                                    
                                 </div>
                             </div>
                             <div class="row">                        
-                                <button type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
-                                  Buscar <i class="fa fa-search ml-2"></i>
-                                </button>
+                                <input type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
                             </div>
                         </form>
                     </div>

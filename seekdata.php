@@ -14,11 +14,11 @@ Function VarResult(){
         
         if ($type == "video") {
         
-            $url = "https://pixabay.com/api/?key={$token}&q={$toSeek}&image_type=photo";
+            $url = "https://pixabay.com/api/videos?key={$token}&q={$toSeek}&image_type=photo";
         
         } elseif (($type == "imagem")){
         
-            $url ="https://pixabay.com/api/videos/?key={$token}&q={$toSeek}";
+            $url ="https://pixabay.com/api/?key={$token}&q={$toSeek}";
         
         }
 

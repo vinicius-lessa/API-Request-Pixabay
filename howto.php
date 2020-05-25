@@ -1,6 +1,3 @@
-
-
-
  <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -46,39 +43,13 @@
         <div class="container">
             <div class="main">
                 <div class="row">
-                    <div class="col-12 text-center mt-4">
-                    
-                    
-                        <h2><strong>PIXABAY</strong></h2>
-                        <h3>Encontre !</h3>
+                    <div class="col-12 text-center mt-4">                    
+                        <h2><strong>API - PIXABAY</strong></h2>
+                        <h3>How To ?</h3>
                     </div>
                 </div>
-
-                <!-- FORM THAT MAKE A REQUIRE TO DATABASE -->                
-                <form method="post" action="#" class="ml-5 mr-5 mb-0">
-                    <div class="form-group">
-                        <label class="letra">O que deseja Ver ?</label>
-                        <input type="text" name="nome" class="form-control" id="" placeholder="Videos de New York" required>
-                        <?php include  'busca_video.php'?>;
-                        <small id="" class="form-text text-muted letra2">Encontre o que quiser</small>
-                    </div>
-                    <div class="row">                        
-                        <input type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
-                    </div>
-                </form>
-                <article class='mb-3'>                
-                    <div class="row">
-                        <div class="col mt-4 ml-2 mr-2">
-                            <hr class="bg-black">
-                            <h3 class="text-center mt-5 mb-4 letra"><strong>...</strong></h3>
-                        </div>                    
-                    </div>                    
-                    <div class="row">                    
-                        <div class='col-12 mb-4'>
-                        </div>
-                    </div>
-                </article>
             </div>
+        </div>
     
         <!-- FOOTER -->
         <footer class="w-auto p-3">

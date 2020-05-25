@@ -22,13 +22,13 @@
 
                     <ul class='list-unstyled letra2'>
                         <li>
-                        <a href='https://pixabay.com/api/docs/' class='text-white'>API PIXABAY</a>
+                        <a target='_blank' href='https://pixabay.com/api/docs/' class='text-white'>API PIXABAY</a>
                         </li>
                         <li>
-                        <a href='https://www.cps.sp.gov.br/' class='text-white'>CENTRO PAULO SOUZA</a>
+                        <a target='_blank' href='https://www.cps.sp.gov.br/' class='text-white'>CENTRO PAULO SOUZA</a>
                         </li>
                         <li>
-                        <a href='http://www.portaltransparencia.gov.br/' class='text-white'>FATEC</a>
+                        <a target='_blank' href='http://www.portaltransparencia.gov.br/' class='text-white'>FATEC</a>
                         </li>
                     </ul>
 

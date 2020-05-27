@@ -43,7 +43,6 @@
         <link rel="shortcut icon" href="favicon.ico" />
 
         <!-- SCRIPTS -->
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <script src="scripts/jquery.min.js"></script>
         <script src="scripts/bootstrap.min.js"></script>
 
@@ -113,11 +112,18 @@
                                                 </svg>                                            
                                             </div>
                                         </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <div id="alert" class="alert alert-danger" role="alert">                                            
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">                        
-                                <button id='clickme' type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
+                                <button onClick="ValidateForm(this.form)" id='clickme' type="submit" name="Buscar" class="btn btn-primary btn-lg btn-block m-1 input-bot" value="Buscar">
                                     Buscar <i class="fa fa-search ml-2"></i>
                                 </button>
                             </div>
@@ -241,7 +247,7 @@
                                     //     </div>";
 
                                 echo " </div> ";
-                            } else {
+                            } elseif (isset($_POST["search"]) && Empty($jSonRet)) {
                                 echo " <div class='container ml-5 mr-5'> ";
 
                                 // Resultados em Números
@@ -267,6 +273,7 @@
 				</div>
 			</div>                
         </footer>
+
 		<script src="scripts/script.js" async defer>
 		</script>
 	</body>

@@ -53,9 +53,9 @@
                             <div class="col-9 mt-2">
                                 <h2>Vinícius Lessa</h2>
                                 <h5 class="font-weight-bold">Sobre:<h5>
-                                <p class="text-justify">Vinícius Lessa, atualmente cursando o 3º Semestre de Sistemas para Internet na FATEC SÃO ROQUE.</p>
+                                <p class="text-justify">Vinícius Lessa, atualmente cursando o 4º Semestre de Sistemas para Internet na FATEC SÃO ROQUE. Apaixonado por música.</p>
                                 <h5 class="font-weight-bold">Contato:</h5>
-                                <p class="text-justify">E-mail: vinicius.lessa@outlook.com</p>
+                                <p class="text-justify">E-mail: vinicius.lessa33@outlook.com</p>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                                 <img tabindex="0" class="rounded-circle devimg" src="anderson.webp" height="220" width="220" alt="...">
                             </div>
                             <div class="col-9 mt-2">
-                                <h2>Anderson Coelho</h2>
+                                <h2>Anderson Nascimento</h2>
                                 <h5 class="font-weight-bold">Sobre:<h5>
                                 <p class="text-justify">Anderson Nascimento, estudante 28 anos,amante de gibis,mangas,Animes,Tokusatsu.</p>
                                 <h5 class="font-weight-bold">Contato:</h5>

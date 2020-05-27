@@ -49,7 +49,7 @@
                     <a href='whoweare.php' class='text-white'>Quem Somos</a>
                     </li>
                     <li>
-                    <a href='howto.php' class='text-white'>Como consumir esta API</a>
+                    <a target='blank' href='dowload\Consumo de API Pixabay Vinicius e Anderson.pdf' class='text-white'>Como consumir esta API</a>
                     </li>
                 </ul>
 

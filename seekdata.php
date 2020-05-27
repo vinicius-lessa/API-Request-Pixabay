@@ -10,6 +10,7 @@ Function VarResult(){
         $toSeek     = $_POST["search"];
         $token      ="16663056-351e723be15750d1cc90b4fcd";        
         $type       = $_POST["tipo"];
+
         $url        = "";
         
         if ($type == "video") {

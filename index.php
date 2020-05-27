@@ -80,7 +80,7 @@
                         <form method="post" action="." class="form-check">
                             <div class="form-group">
                                 <label class="letra">O que deseja Ver ?</label>
-                                <input type="text" name="search" class="form-control" id="" placeholder="Imagens de New York" required>
+                                <input type="text" name="search" class="form-control" id="" placeholder="Música" required>
                                 
                                 <h6 class="mt-2 mb-2 form-text text-muted letra2">Encontre o que quiser</h6>
                                 

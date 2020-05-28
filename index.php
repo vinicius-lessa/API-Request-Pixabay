@@ -138,7 +138,6 @@
                             if (isset($_POST["search"]) && !Empty($jSonRet)){
                                 
                                 $aResult = json_decode(json_encode($jSonRet->hits), true)   ; // Trasnforma em Array
-                                $nCont   = 0                                                ;
                                 
                                 // DIV Principal
                                 echo " <div class='container ml-3'> ";
@@ -163,8 +162,8 @@
                                                         echo "  <div class='col-6 pl-4 pr-4'>
                                                                     <div class='row border-top rounded h-100 mt-3 mb-3'>
                                                                         <div class='col-12 mt-4 ml-1 mr-1'>                     
-                                                                        <h4 class='mb-2 text-white'>TAGS: " . $Value["tags"] ."</h4>
-                                                                        <div class='delay embed-responsive embed-responsive-16by9'>
+                                                                            <h4 class='mb-2 text-white'>TAGS: " . $Value["tags"] ."</h4>
+                                                                            <div class='delay embed-responsive embed-responsive-16by9'>
                                                                                 <iframe width='853' height='480' src=".$Value["videos"]["small"]["url"]." frameborder='0' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
                                                                             </div>
                                                                             <div class='col-12 mt-2'>

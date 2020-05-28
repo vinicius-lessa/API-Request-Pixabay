@@ -8,7 +8,7 @@ Function VarResult(){
 
         // Variáveis
         $toSeek     = $_POST["search"];
-        $token      ="16663056-351e723be15750d1cc90b4fcd";        
+        $token      = "16663056-351e723be15750d1cc90b4fcd";        
         $type       = $_POST["tipo"];
 
         $url        = "";
@@ -41,19 +41,4 @@ Function RequireData($link){
 
     // Caso o Json volte vaizo
     return null;
-}    
-
-Function SeekVideo() {
-
-    $result = "";
-
-    if(isset($_POST["nome"])){
-    $nome=$_POST["nome"];
-    
-    }
-
-    $result= json_decode(file_get_contents($url));
-    print_r($result);
 }
-
-?>
